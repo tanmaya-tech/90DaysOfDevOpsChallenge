@@ -1,0 +1,14 @@
+1.   What is Git and why is it important?
+Ans. Git is a Version Control Tool that supports non-linear workflows and is responsible for recording each change (in the form of versions) such that there is a history for each and every change along with the information of who perfomed the change and when. This tool is helpful for people working on Projects so that they can experiment with codes and also return back to 1 version before in case the experiment does not work.
+
+2.   What is the difference between Main Branch and Master Branch?
+Ans. The Main and Master both are Default branches only. The only difference being that whenever we create code entirely in our Local system and push it to Github repository then the default branch is Master and whenever we directly create a code file in Github and clone in our local system then if we check the branch via git status then the branch is main. 
+
+3.   Can you explain the difference between Git and GitHub?
+Ans.     Git is a open source, free, version control Tool (mainly a CLI) which developers usually install in their systems to manage and keep history of their source code and Github (GUI) is a cloud-based hosting service to host and manage different Git Repositories.
+
+4.   How do you create a new repository on GitHub?
+Ans. To create a new repository on Github, firstly you should have a Github account, go to Repositiories -> New Repository -> Give it a name -> Select which branch you want to include -> Create.
+
+5.   What is the difference between a local & remote repository? How to connect local to remote?
+Ans. A repository is nothing but a directory or folder where we store all our work or in other words it is a space where our complete project lives. Local reposiory is something which is in our personal systems and thus the content of project or inside the repo is only visible to us. Remote repository is something which is generally hosted on Github where anyone can view it if it is public and can fork it as well make changes once forked in their account and then can send merge request if they want their changes as well to be mergerd in ours. To connect Local to remote repository we can either make use of SSH or Personal Access Tokens and then perform push/pull operations accordingly.
